@@ -194,13 +194,18 @@
                         <span class="sub-item">Gerenciar Produtos</span>
                       </a>
                     </li>
+                      <li>
+                      <a href="../gerenciar/despesas.html">
+                        <span class="sub-item">Cadastrar Despesas</span>
+                      </a>
+                    </li>
                     <li>
                       <a href="../forms/forms.html">
                         <span class="sub-item">Adicionar Alunos</span>
                       </a>
                     </li> 
                     <li>
-                      <a href="../gerenciar/alunos.html">
+                      <a href="gerenciar/alunos.html">
                         <span class="sub-item">Gerenciar Alunos</span>
                       </a>
                     </li> 
@@ -754,92 +759,90 @@
                                         </div>
                                     </div>
 
-                                    <div class="table-responsive">
-    <table id="add-row" class="display table table-striped table-hover">
+ <div class="card mt-4">
+  <div class="card-header">
+    <div class="card-title">Cadastro de Despesas</div>
+  </div>
 
-        <thead>
-            <tr>
-                <th>Modalidade</th>
-                <th>Plano</th>
-                <th>Valor</th>
-                <th>Alunos</th>
-                <th>Status</th>
-                <th style="width: 10%">Ações</th>
-            </tr>
+  <div class="card-body p-0">
+    <div class="table-responsive">
+      <table class="table align-items-center mb-0">
+
+        <thead class="thead-light">
+          <tr>
+            <th>Descrição</th>
+            <th class="text-end">Categoria</th>
+            <th class="text-end">Valor</th>
+            <th class="text-end">Vencimento</th>
+            <th class="text-end">Status</th>
+            <th class="text-end">Ações</th>
+          </tr>
         </thead>
-
-        <tfoot>
-            <tr>
-                <th>Modalidade</th>
-                <th>Plano</th>
-                <th>Valor</th>
-                <th>Alunos</th>
-                <th>Status</th>
-                <th>Ações</th>
-            </tr>
-        </tfoot>
 
         <tbody>
 
-            <!-- MUAY THAI -->
-            <tr>
-                <td>🥊 Muay Thai</td>
-                <td>Mensal</td>
-                <td>R$ 150,00</td>
-                <td>120</td>
-                <td><span class="badge bg-success">Ativo</span></td>
-                <td>
-                    <div class="form-button-action">
-                        <button class="btn btn-link btn-primary btn-lg">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button class="btn btn-link btn-danger">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </div>
-                </td>
-            </tr>
+          <tr>
+            <th>Aluguel do espaço</th>
+            <td class="text-end">Fixo</td>
+            <td class="text-end">R$ 2.000,00</td>
+            <td class="text-end">05/05/2026</td>
+            <td class="text-end">
+              <span class="badge bg-success">Pago</span>
+            </td>
+            <td class="text-end">
+              <button class="btn btn-primary btn-sm me-1">
+                <i class="fa fa-edit"></i>
+              </button>
+              <button class="btn btn-danger btn-sm">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
 
-            <!-- BOXE -->
-            <tr>
-                <td>🥊 Boxe</td>
-                <td>Trimestral</td>
-                <td>R$ 400,00</td>
-                <td>80</td>
-                <td><span class="badge bg-success">Ativo</span></td>
-                <td>
-                    <div class="form-button-action">
-                        <button class="btn btn-link btn-primary btn-lg">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button class="btn btn-link btn-danger">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </div>
-                </td>
-            </tr>
+          <tr>
+            <th>Conta de Luz</th>
+            <td class="text-end">Utilidades</td>
+            <td class="text-end">R$ 350,00</td>
+            <td class="text-end">10/05/2026</td>
+            <td class="text-end">
+              <span class="badge bg-warning">Pendente</span>
+            </td>
+            <td class="text-end">
+              <button class="btn btn-primary btn-sm me-1">
+                <i class="fa fa-edit"></i>
+              </button>
+              <button class="btn btn-danger btn-sm">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
 
-            <!-- BJJ -->
-            <tr>
-                <td>🥋 Jiu-Jitsu</td>
-                <td>Mensal</td>
-                <td>R$ 180,00</td>
-                <td>95</td>
-                <td><span class="badge bg-warning">Quase cheio</span></td>
-                <td>
-                    <div class="form-button-action">
-                        <button class="btn btn-link btn-primary btn-lg">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button class="btn btn-link btn-danger">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </div>
-                </td>
-            </tr>
+          <tr>
+            <th>Compra de Equipamentos</th>
+            <td class="text-end">Investimento</td>
+            <td class="text-end">R$ 1.200,00</td>
+            <td class="text-end">01/05/2026</td>
+            <td class="text-end">
+              <span class="badge bg-danger">Atrasado</span>
+            </td>
+            <td class="text-end">
+              <button class="btn btn-primary btn-sm me-1">
+                <i class="fa fa-edit"></i>
+              </button>
+              <button class="btn btn-danger btn-sm">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
 
         </tbody>
-    </table>
+
+      </table>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
 </div>
                                 </div>
                             </div>
@@ -847,6 +850,67 @@
                     </div>
                 </div>
             </div>
+
+            <div class="modal fade" id="modalEditarAluno" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Editar Aluno</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <input type="hidden" id="edit_id">
+
+        <div class="mb-3">
+          <label>Nome</label>
+          <input type="text" id="edit_nome" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label>Modalidade</label>
+          <select id="edit_modalidade" class="form-control">
+            <option>Muay Thai</option>
+            <option>Boxe</option>
+            <option>Jiu-Jitsu</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label>Plano</label>
+          <select id="edit_plano" class="form-control">
+            <option>Mensal</option>
+            <option>Trimestral</option>
+            <option>Anual</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label>Vencimento</label>
+          <input type="date" id="edit_vencimento" class="form-control">
+        </div>
+
+        <div class="mb-3">
+          <label>Status</label>
+          <select id="edit_status" class="form-control">
+            <option>Ativo</option>
+            <option>Inativo</option>
+            <option>Vencendo</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button class="btn btn-success" id="salvarEdicao">Salvar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
 
             <footer class="footer">
                 <div class="container-fluid d-flex justify-content-between">
@@ -954,6 +1018,43 @@
     <!-- Kaiadmin DEMO methods, don't include it in your project! -->
     <script src="../assets/js/setting-demo2.js"></script>
     <script>
+
+        $(document).on("click", ".btn-editar", function() {
+
+  let btn = $(this);
+
+  $("#edit_id").val(btn.data("id"));
+  $("#edit_nome").val(btn.data("nome"));
+  $("#edit_modalidade").val(btn.data("modalidade"));
+  $("#edit_plano").val(btn.data("plano"));
+  $("#edit_vencimento").val(btn.data("vencimento"));
+  $("#edit_status").val(btn.data("status"));
+
+  $("#modalEditarAluno").modal("show");
+});
+
+
+$("#salvarEdicao").click(function(){
+
+  let dados = {
+    id: $("#edit_id").val(),
+    nome: $("#edit_nome").val(),
+    modalidade: $("#edit_modalidade").val(),
+    plano: $("#edit_plano").val(),
+    vencimento: $("#edit_vencimento").val(),
+    status: $("#edit_status").val()
+  };
+
+  console.log("Dados para salvar:", dados);
+
+  // Aqui você envia via AJAX
+  /*
+  $.post("sua_rota.php", dados, function(response){
+      location.reload();
+  });
+  */
+
+});
         $(document).ready(function () {
             $("#basic-datatables").DataTable({});
 
